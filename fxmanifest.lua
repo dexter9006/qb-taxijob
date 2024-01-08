@@ -11,6 +11,7 @@ shared_scripts {
     'locales/en.lua',
     'locales/*.lua',
     'config.lua',
+    '@ox_lib/init.lua',
 }
 
 dependencies {
