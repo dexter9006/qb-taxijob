@@ -2,7 +2,7 @@ Config = {
 
     jobRequired = "taxi",
 
-    Management = false, -- if true, the money gained from the trips, will go to the boss menu funds
+    Management = true, -- if true, the money gained from the trips, will go to the boss menu funds
 
     -- set this to false if you want to use distance checks
     UseTarget = GetConvar('UseTarget', 'false') == 'true',
@@ -269,16 +269,18 @@ Config = {
     },
 
     CabSpawns = {
-        vector4(899.0837, -180.4414, 73.4115, 238.7553),
-        vector4(897.1274, -183.3882, 73.3531, 238.4949),
-        vector4(903.4929, -191.7166, 73.3883, 60.5255),
-        vector4(904.9221, -188.7516, 73.4204, 60.5921),
-        vector4(906.9083, -186.0502, 73.6249, 58.2671),
-        vector4(908.7374, -183.2168, 73.7542, 57.1579),
-        vector4(911.3865, -163.0307, 73.9763, 194.4093),
-        vector4(913.5932, -159.4309, 74.3888, 193.9838),
-        vector4(916.0979, -170.6549, 74.0125, 100.604),
-        vector4(918.3217, -167.1944, 74.2036, 101.5165),
-        vector4(920.6716, -163.4763, 74.4108, 96.2972)
+        vector4(899.39, -180.76, 73.45, 237.36),
+        vector4(897.49, -183.67, 73.37, 238.42),
+        vector4(903.06, -191.68, 73.4, 57.59),
+        vector4(904.83, -188.91, 73.43, 56.67),
+        vector4(906.63, -186.07, 73.63, 58.08),
+        vector4(908.56, -183.13, 73.77, 56.78),
+        vector4(911.3865, -163.0307, 73.9763, 194.41),
+        vector4(913.57, -159.59, 74.39, 191.56),
+        vector4(916.0979, -170.6549, 74.0125, 100.61),
+        vector4(918.31, -167.09, 74.22, 100.15),
+        vector4(920.04, -163.61, 74.41, 97.73)
+
+
     },
 }
