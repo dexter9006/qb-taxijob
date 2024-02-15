@@ -7,11 +7,11 @@ version '1.2.0'
 ui_page 'html/meter.html'
 
 shared_scripts {
+    '@ox_lib/init.lua',
     '@qb-core/shared/locale.lua',
-    'locales/en.lua',
+    --'locales/en.lua',
     'locales/*.lua',
     'config.lua',
-    '@ox_lib/init.lua',
 }
 
 dependencies {
