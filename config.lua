@@ -17,13 +17,12 @@ Config = {
     },
 
     Meter = {
-        ["defaultPrice"] = 125.0, -- price per mile
+        ["defaultPrice"] = 70.0, -- price per mile
         ["startingPrice"] = 0  -- static starting price
     },
 
     Location = vector3(909.5, -177.35, 74.22), -- map blip position
-    parkLocation = vector3(909.5, -177.35, 74.22), -- vehicle garage location
-
+    parkLocation = vector3(904.24, -168.29, 74.09), -- vehicle garage location
     Duty = vector3(894.88, -179.22, 74.7),
     
     NPCLocations = {
